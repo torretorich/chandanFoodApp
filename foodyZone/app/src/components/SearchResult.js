@@ -30,10 +30,11 @@ const SearchResult = ({data}) => {
 };
 
 export default SearchResult;
+
 const FoodcardsContainer = styled.section`
   min-height: calc(100vh - 210px);
   width: 100%;
-  background-image: url("/bg.png");
+  background-image: url("/foodyZone/bg.png");
   background-size: cover;
 `;
 const Foodcards = styled.div`
