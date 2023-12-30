@@ -98,7 +98,7 @@ function App() {
       <Container>
         <TopContainer>
           <div className="logo">
-            <img src="/logo.svg" alt="logo"/>
+            <img src="/foodyZone/logo.svg" alt="logo"/>
           </div>
           <div className='search'>
               <input onChange={searchFood} placeholder='Search Food'/>
@@ -148,7 +148,7 @@ const TopContainer = styled.section`
       height: 40px;
       font-size: 16px;
       padding: 0 10px;
-      & ::placeholder{
+      &::placeholder{
         color: white;
       }
     }
